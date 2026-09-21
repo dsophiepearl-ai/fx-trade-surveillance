@@ -2,7 +2,7 @@
 
 I built this to demonstrate two responsibilities that show up directly in forex Risk Analyst and Trading Operations postings: "investigate trading alerts and analyse flow," and "trade monitoring & market surveillance." It analyzes a book of trades across multiple accounts and produces a ranked queue of activity worth a closer look, the way a real surveillance system would.
 
-**Live demo:** _add your link here once deployed — see "Seeing it run" below_
+**Live demo:** https://fx-trade-surveillance-jgthzb26uk4rgk7gprwxqb.streamlit.app/ — see "Seeing it run" below_
 
 It runs as an interactive dashboard: generate a fresh, randomized book of trades (or upload your own), adjust every detection threshold, and see the results as live metrics and a chart. What matters most, though, is how each alert is shown: every flagged trade is its own expandable card with the actual evidence behind it — the measured value, the threshold it crossed, and (for a wash-trade pair) both legs of the trade side by side — the same reasoning an analyst would walk through before deciding whether an alert is worth escalating.
 
